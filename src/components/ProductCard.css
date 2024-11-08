@@ -1,25 +1,38 @@
 /* src/components/ProductCard.css */
 
 .product-card {
-    width: 200px;
-    border: 1px solid #ddd;
+    width: 400px;
     padding: 10px;
-    text-align: center;
-    background-color: #f9f9f9;
+    text-align: left;
   }
   
   .product-card img {
     width: 100%;
     height: auto;
+  } 
+
+  .product-card h3.b{
+    font-style: normal;
+    font-weight: normal;
+    color: #717070;
   }
-  
+
+  .product-card h3.star{
+    font-style: normal;
+    font-weight: bold;
+    color: #717070;
+  }
+   
   .product-card h3 {
     font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 900;
     margin: 10px 0;
   }
   
   .product-card p {
     font-size: 1rem;
     color: #333;
+    font-weight: 600;
   }
   

@@ -1,0 +1,28 @@
+/* src/components/HeroSection.css */
+
+.hero {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, black 50%, #ff4c4c 50%);
+    color: white;
+    padding: 40px;
+  }
+  
+  .hero-content {
+    flex: 1;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .buy-now {
+    padding: 10px 20px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

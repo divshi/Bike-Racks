@@ -1,20 +1,26 @@
 /* src/components/HeroSection.css */
-
+.hero-container{
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 50%, rgba(255, 76, 76, 0.6) 50%), 
+                url('../assets/HeroSection.jpg') no-repeat center center;
+    background-size: cover;
+}
 .hero {
     display: flex;
     align-items: center;
-    background: linear-gradient(to right, black 50%, #ff4c4c 50%);
     color: white;
     padding: 40px;
+    position: relative;
   }
   
   .hero-content {
-    flex: 1;
+    position: relative;
+    z-index: 2;
   }
-  
-  .hero-image img {
-    max-width: 100%;
-    height: auto;
+
+  .list{
+    list-style-image: url('../assets/point.png'); 
+    padding-left: 30px;
   }
   
   .buy-now {
@@ -25,4 +31,58 @@
     cursor: pointer;
     margin-top: 20px;
   }
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  
+.header {
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .cart {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+  }
+
+  .nav-login-cart{
+    width: 30px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.nav-cart-count{
+    width: 18px;
+    height: 18px;
+    margin-top: -10px;
+    margin-left: -17px;
+    display: flex;
+    justify-content: center;
+    border-radius: 11px;
+    font-size: 14px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
   

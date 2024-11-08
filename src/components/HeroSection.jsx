@@ -4,6 +4,8 @@ import React from 'react';
 import './HeroSection.css';
 import logo from '../assets/logo.png'; 
 import cart_icon from '../assets/cart_icon.png'
+import point from '../assets/point.png';
+
 function HeroSection() {
   return (
     <div className="hero-container"> 
@@ -27,14 +29,17 @@ function HeroSection() {
       <section className="hero">
         <div className="hero-content">
           <h2>Newly Launched</h2>
-          <h1>Kryo X26 MTB</h1>
+          <h1>Kryo X26 </h1>
+          <h1>MTB</h1>
           <p>Specifications:</p>
           <ul className='list'>
-            <li>Lightweight 18" Frame</li>
-            <li>Steel Suspension Fork</li>
-            <li>Steel Hardtail Frame</li>
+            <li>⦾ &nbsp; &nbsp; Lightweight 18" Frame</li>
+            <li>⦾ &nbsp; &nbsp; Steel Suspension Fork</li>
+            <li>⦾ &nbsp; &nbsp; Steel Hardtail Frame</li>
           </ul>
+          <div className="button">
           <button className="buy-now">BUY NOW</button>
+          </div>
         </div>
       </section>
     </div>

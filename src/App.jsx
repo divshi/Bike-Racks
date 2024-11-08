@@ -4,7 +4,7 @@ import React from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import NewArrivals from './components/NewArrivals';
-import './Index.css';
+import './index.css';
 
 function App() {
   return (

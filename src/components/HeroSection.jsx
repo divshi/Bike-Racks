@@ -11,7 +11,7 @@ function HeroSection() {
     <div className="hero-container"> 
       <header className="header">
         <nav className="navbar">
-          <div className="logo"> <img width="120px" src={logo} alt="" /></div>
+          <div className="logo"> <img width="90px" src={logo} alt="" /></div>
           <ul className="nav-links">
             <li>HOME</li>
             <li>BICYCLES</li>

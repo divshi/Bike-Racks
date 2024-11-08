@@ -19,33 +19,33 @@
   }
 
   .hero-content h2{
-    padding-bottom: 65px;
-    font-size: 50px;
+    padding-bottom: 40px;
+    font-size: 40px;
     font-style: italic;
     font-weight: bolder;
   }
 
   .hero-content h1{
-    padding-bottom: 65px;
-    font-size: 120px;
+    padding-bottom: 40px;
+    font-size: 100px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     font-weight: bolder;
   }
 
   .hero-content p{
-    font-size: 26px;
+    font-size: 18px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     font-weight: bolder;
   }
 
   .list{
-    padding-top: 20px;
+    padding-top: 10px;
     list-style: none; 
     padding-left: 0px;
     line-height: 2;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .list img{
@@ -54,7 +54,7 @@
   }
 
   .button{
-    padding-top: 50px;
+    padding-top: 40px;
   }
   
   .buy-now {

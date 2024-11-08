@@ -84,7 +84,7 @@
   
   .navbar {
     display: flex;
-    font-size: 24px;
+    font-size: 19px;
     justify-content: space-between;
     align-items: center;
   }
@@ -98,24 +98,24 @@
   .cart {
     display: flex;
     gap: 10px;
-    font-size: 24px;
+    font-size: 19px;
   }
 
   .nav-login-cart{
-    width: 40px;
-    margin-top: -8px;
+    width: 30px;
+    margin-top: -5px;
     cursor: pointer;
 }
 
 .nav-cart-count{
-    width: 21px;
-    height: 21px;
-    margin-top: -13px;
+    width: 17px;
+    height: 17px;
+    margin-top: -10px;
     margin-left: -22px;
     display: flex;
     justify-content: center;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 14px;
     background: #ffffff;
     color: rgb(0, 0, 0);
 }
